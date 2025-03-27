@@ -2,6 +2,10 @@
 
 My PowerShell profile scripts with native Git Branch display
 
+## Requirements
+
+PowerShell ^7.0
+
 ## Instalation
 
 1. Clone the repo
