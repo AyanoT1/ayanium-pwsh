@@ -24,10 +24,10 @@ function Prompt {
     }
     
     Write-Host $config.RootSymbol -NoNewline
-    Write-Host " $displayPath" -NoNewline -ForegroundColor $config.PathColor
+    Write-Host " $displayPath " -NoNewline -ForegroundColor $config.PathColor
     
     if ($branch) {
-        Write-Host " ($branch) " -NoNewline -ForegroundColor $config.BranchColor
+        Write-Host "($branch) " -NoNewline -ForegroundColor $config.BranchColor
     }
     
     return $config.PromptSymbol
